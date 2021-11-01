@@ -19,7 +19,7 @@ public class Main {
 		curso.addEstudiante(new Estudiante("A004", "carlos"));
 		curso.addEstudiante(new Estudiante("A005", "pablo"));
 		System.out.println(curso.pintarEstudiantes());
-		if(curso.eliminarEstudiantes("A003")==1) {
+		if(curso.eliminarEstudiantes("A003")==1) { //aqui se elimina un estudiante mediante el codigo
 			System.out.println("se elimino al estudiante de la lista\n");
 			System.out.println(curso.pintarEstudiantes());
 		}else {
